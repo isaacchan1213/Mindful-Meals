@@ -327,7 +327,7 @@ export default function Home() {
       {open && (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white w-[400px] p-4 border border-gray-400 shadow-lg rounded-lg relative">
-            <h2 className="text-lg font-semibold mb-4">Add Item</h2>
+            <h2 className="text-lg font-semibold mb-4">Add Meal</h2>
             <div className='flex flex-col mb-4'>
               <div className="flex gap-2">
                 <input
