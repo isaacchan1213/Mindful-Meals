@@ -583,7 +583,7 @@ export default function Home() {
           <button className='rounded bg-blue-600 px-4 py-2 text-lg text-white hover:shadow-xl hover:bg-blue-700' onClick={() => {
             handleOpen()
           }}>
-            <p className='text-[14px]'>Add New Item</p>
+            <p className='text-[14px]'>Add New Meal</p>
           </button>
           <button className='rounded bg-blue-600 px-4 py-2 text-lg text-white hover:shadow-xl hover:bg-blue-700' onClick={() => {
             clearAllInventoryItems()
