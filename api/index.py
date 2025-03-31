@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 chat = ChatGroq(
-    model="mixtral-8x7b-32768",
+    model="llama3-70b-8192",  
     temperature=0,
     max_retries=2,
     api_key=os.getenv('GROQ_API_KEY')  
